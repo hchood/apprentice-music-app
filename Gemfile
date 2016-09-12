@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.3.1"
 
+gem 'active_model_serializers', '0.8.3'
 gem "autoprefixer-rails"
 gem "delayed_job_active_record"
 gem "flutie"
@@ -21,6 +22,7 @@ gem "sprockets-es6"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem "versionist"
 
 group :development do
   gem "quiet_assets"
