@@ -50,6 +50,7 @@ group :test do
   gem "capybara-webkit"
   gem "database_cleaner"
   gem "formulaic"
+  gem "json_spec"
   gem "launchy"
   gem "shoulda-matchers"
   gem "simplecov", require: false
