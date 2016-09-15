@@ -28,6 +28,7 @@ describe 'Songs endpoints' do
       # - have_json_size, have_json_path, have_http_status
       expect(response).to have_http_status :ok # same as 200
       expect(response.body).to have_json_size(3).at_path('songs') # { "songs": [...] }
+      # also test that correct attributes are present
     end
 
     # it 'fails with invalid attributes'
